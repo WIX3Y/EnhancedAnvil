@@ -1,0 +1,36 @@
+name: EnhancedAnvil
+version: '1.0.0'
+main: wix3y.enhancedAnvil.EnhancedAnvil
+api-version: '1.21'
+authors: [ WIX3Y ]
+depend: [AdvancedEnchantments]
+commands:
+  eareload:
+    description: Reloads the plugin
+    usage: /eareload
+    aliases: enhancedanvilreload
+    permission: enhancedanvil.reload
+  eanvil:
+    description: Open custom anvil gui
+    usage: /eanvil
+    aliases: enhancedanvil
+    permission: enhancedanvil.anvil.cost.bypass
+permissions:
+  enhancedanvil.reload:
+    description: "Allows using the /eareload command."
+    default: op
+  enhancedanvil.enchant.low:
+    description: "Allows using the enchanting table low cost offer."
+    default: op
+  enhancedanvil.enchant.medium:
+    description: "Allows using the enchanting table medium cost offer."
+    default: op
+  enhancedanvil.enchant.high:
+    description: "Allows using the enchanting table high cost offer."
+    default: op
+  enhancedanvil.anvil.merge.bypass:
+    description: "Allows merging two lower level enchants into a higher level in an anvil."
+    default: false
+  enhancedanvil.anvil.cost.bypass:
+    description: "Allows using the custom anvil, bypassing the to expensive cost."
+    default: op

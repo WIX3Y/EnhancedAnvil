@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EnhancedAnvil:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EnhancedAnvil_jar</output-path>
+    <root id="archive" name="EnhancedAnvil.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <element id="module-output" name="wix3y.EnhancedAnvil.main" />
+    </root>
+  </artifact>
+</component>

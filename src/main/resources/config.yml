@@ -1,0 +1,54 @@
+#
+#   ┏━━━━━━━━━━━━━━━━━━━━━━━━ ⊹ ☆ ⊹ ━━━━━━━━━━━━━━━━━━━━━━━━┓
+#
+#                         Enhanced Anvil
+#         Source: https://github.com/WIX3Y/EnhancedAnvil
+#                          Author: WIX3Y
+#
+#   ┗━━━━━━━━━━━━━━━━━━━━━━━━ ⊹ ☆ ⊹ ━━━━━━━━━━━━━━━━━━━━━━━━┛
+#
+#   ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+#
+#                        List of Commands
+#
+#                           eareload
+#                    Reloads the config file
+#           Required permission: enhancedanvil.reload
+#                    Example usage: /eareload
+#
+#                           eanvil
+#                  Opens the custom anvil gui
+#     Required permission: enhancedanvil.anvil.cost.bypass
+#                    Example usage: /eanvil
+#
+#   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+#
+#   ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+#
+#                       List of Permissions
+#
+#                    enhancedanvil.enchant.low
+#         Allows using the enchanting table low cost offer
+#
+#                  enhancedanvil.enchant.medium
+#       Allows using the enchanting table medium cost offer
+#
+#                   enhancedanvil.enchant.high
+#        Allows using the enchanting table high cost offer
+#
+#               enhancedanvil.anvil.merge.bypass
+#     Allows default minecraft behaviour of merging two lower
+#              level enchants into a higher
+#
+#                enhancedanvil.anvil.cost.bypass
+#        Allows bypassing the to expensive anvil cost by
+#                     using the /eanvil
+#
+#   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+#
+
+# Do not change
+config-version: 1
+
+CustomAnvilCost: 50
+CustomAnvilName: "           <gradient:#44AAFF:#CCEEFF:#44AAFF>Enhanced Anvil</gradient>"
