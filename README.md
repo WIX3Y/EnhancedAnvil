@@ -6,7 +6,7 @@ Lock enchanting table tiers behind permissions and unlock new possibilities with
 Description: Opens the custom anvil gui \
 Example Usage: /eanvil \
 Aliases: enhancedanvil \
-Permission: enhancedanvil.anvil.cost.bypass
+Permission: enhancedanvil.anvil.cost.bypass \
 Note: "/eanvil \<player\>" can be run from console to open the gui for other players
 
 
